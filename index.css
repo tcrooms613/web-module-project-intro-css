@@ -55,15 +55,17 @@ html, body {
 	box-sizing:border-box;
 	font-family: 'Roboto Mono', monospace;
 }
+/* Header Styling */
 /* Navigation Bar Styling */
 header {
 	border: 1px solid orange
 }
-nav {
+nav{
 	width:90%;
 	margin: auto;
 	padding: 2%;
 	text-align: center;
+	
 }
 a {
 	display: inline-block;
@@ -87,4 +89,20 @@ a {
 	padding: .75% 1.5%;
 	border-radius: 15px;
 	margin: 0 0 0 15%;
+}
+/* End Nav Styling */
+
+.hdr-img {
+	width: 40%;
+	border-radius: 100%;
+}
+.img-container {
+	padding-left: 8%;
+	border: 1px solid blue;
+	width: 35%;
+}
+.intro {
+	border: 1px solid green;
+	width: 50%;
+	text-align: center;
 }
